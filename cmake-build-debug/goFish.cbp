@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/oliviamudong/Desktop/312/goFish/."/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -64,6 +65,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/oliviamudong/Desktop/312/goFish/."/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -78,7 +80,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/oliviamudong/Desktop/312/goFish/CMakeLists.txt">
+			<Option target="goFish"/>
+		</Unit>
+		<Unit filename="/Users/oliviamudong/Desktop/312/goFish/card.cpp">
+			<Option target="goFish"/>
+		</Unit>
+		<Unit filename="/Users/oliviamudong/Desktop/312/goFish/card.h">
+			<Option target="goFish"/>
+		</Unit>
+		<Unit filename="/Users/oliviamudong/Desktop/312/goFish/cmake-build-debug/CMakeCache.txt">
+			<Option target="goFish"/>
+		</Unit>
+		<Unit filename="/Users/oliviamudong/Desktop/312/goFish/cmake-build-debug/Makefile">
+			<Option target="goFish"/>
+		</Unit>
+		<Unit filename="/Users/oliviamudong/Desktop/312/goFish/cmake-build-debug/cmake_install.cmake">
+			<Option target="goFish"/>
+		</Unit>
+		<Unit filename="/Users/oliviamudong/Desktop/312/goFish/cmake-build-debug/goFish.cbp">
+			<Option target="goFish"/>
+		</Unit>
+		<Unit filename="/Users/oliviamudong/Desktop/312/goFish/deck.cpp">
+			<Option target="goFish"/>
+		</Unit>
+		<Unit filename="/Users/oliviamudong/Desktop/312/goFish/deck.h">
+			<Option target="goFish"/>
+		</Unit>
 		<Unit filename="/Users/oliviamudong/Desktop/312/goFish/main.cpp">
+			<Option target="goFish"/>
+		</Unit>
+		<Unit filename="/Users/oliviamudong/Desktop/312/goFish/player.cpp">
+			<Option target="goFish"/>
+		</Unit>
+		<Unit filename="/Users/oliviamudong/Desktop/312/goFish/player.h">
 			<Option target="goFish"/>
 		</Unit>
 		<Unit filename="/Users/oliviamudong/Desktop/312/goFish/CMakeLists.txt">

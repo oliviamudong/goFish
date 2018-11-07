@@ -24,6 +24,8 @@
 #define _CARD_H
 
 #include <iostream>
+#include <cstdlib>
+#include <string>
 #include <string>
 using namespace std;
 
@@ -64,3 +66,4 @@ ostream& operator << (ostream& out, const Card& c);
 
 
 #endif
+

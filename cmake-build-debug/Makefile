@@ -123,6 +123,60 @@ goFish/fast:
 	$(MAKE) -f CMakeFiles/goFish.dir/build.make CMakeFiles/goFish.dir/build
 .PHONY : goFish/fast
 
+card.o: card.cpp.o
+
+.PHONY : card.o
+
+# target to build an object file
+card.cpp.o:
+	$(MAKE) -f CMakeFiles/goFish.dir/build.make CMakeFiles/goFish.dir/card.cpp.o
+.PHONY : card.cpp.o
+
+card.i: card.cpp.i
+
+.PHONY : card.i
+
+# target to preprocess a source file
+card.cpp.i:
+	$(MAKE) -f CMakeFiles/goFish.dir/build.make CMakeFiles/goFish.dir/card.cpp.i
+.PHONY : card.cpp.i
+
+card.s: card.cpp.s
+
+.PHONY : card.s
+
+# target to generate assembly for a file
+card.cpp.s:
+	$(MAKE) -f CMakeFiles/goFish.dir/build.make CMakeFiles/goFish.dir/card.cpp.s
+.PHONY : card.cpp.s
+
+deck.o: deck.cpp.o
+
+.PHONY : deck.o
+
+# target to build an object file
+deck.cpp.o:
+	$(MAKE) -f CMakeFiles/goFish.dir/build.make CMakeFiles/goFish.dir/deck.cpp.o
+.PHONY : deck.cpp.o
+
+deck.i: deck.cpp.i
+
+.PHONY : deck.i
+
+# target to preprocess a source file
+deck.cpp.i:
+	$(MAKE) -f CMakeFiles/goFish.dir/build.make CMakeFiles/goFish.dir/deck.cpp.i
+.PHONY : deck.cpp.i
+
+deck.s: deck.cpp.s
+
+.PHONY : deck.s
+
+# target to generate assembly for a file
+deck.cpp.s:
+	$(MAKE) -f CMakeFiles/goFish.dir/build.make CMakeFiles/goFish.dir/deck.cpp.s
+.PHONY : deck.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/goFish.dir/build.make CMakeFiles/goFish.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+player.o: player.cpp.o
+
+.PHONY : player.o
+
+# target to build an object file
+player.cpp.o:
+	$(MAKE) -f CMakeFiles/goFish.dir/build.make CMakeFiles/goFish.dir/player.cpp.o
+.PHONY : player.cpp.o
+
+player.i: player.cpp.i
+
+.PHONY : player.i
+
+# target to preprocess a source file
+player.cpp.i:
+	$(MAKE) -f CMakeFiles/goFish.dir/build.make CMakeFiles/goFish.dir/player.cpp.i
+.PHONY : player.cpp.i
+
+player.s: player.cpp.s
+
+.PHONY : player.s
+
+# target to generate assembly for a file
+player.cpp.s:
+	$(MAKE) -f CMakeFiles/goFish.dir/build.make CMakeFiles/goFish.dir/player.cpp.s
+.PHONY : player.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... goFish"
+	@echo "... card.o"
+	@echo "... card.i"
+	@echo "... card.s"
+	@echo "... deck.o"
+	@echo "... deck.i"
+	@echo "... deck.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... player.o"
+	@echo "... player.i"
+	@echo "... player.s"
 .PHONY : help
 
 
