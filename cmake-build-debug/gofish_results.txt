@@ -1,0 +1,57 @@
+Joe has : 3s 4h 5d 7s 5h 
+Jane has : 8h 10h 7c 10d 6c 
+Joe asks - Do you have a 3
+Jane says - GO FISH CHUMP
+
+Jane asks - Do you have a 8
+Joe says - Im so sorry ): go fish (: 
+
+Joe asks - Do you have a 3
+Jane says - GO FISH CHUMP
+
+Jane asks - Do you have a 8
+Joe says - Im so sorry ): go fish (: 
+
+Joe asks - Do you have a 9
+Jane says - GO FISH CHUMP
+
+Jane asks - Do you have a A
+Joe says - Im so sorry ): go fish (: 
+
+Joe asks - Do you have a 3
+Jane says - GO FISH CHUMP
+
+Jane asks - Do you have a 8
+Joe says - Im so sorry ): go fish (: 
+
+Joe asks - Do you have a 2
+Jane says - GO FISH CHUMP
+
+Jane asks - Do you have a 4
+Joe says - Yes I have a 4
+Jane books the 4s
+Jane asks - Do you have a 8
+Joe says - Im so sorry ): go fish (: 
+
+Joe asks - Do you have a 7
+Jane says - Yes I have a 7
+Joe books the 7s 
+Joe asks - Do you have a J
+Jane says - GO FISH CHUMP
+
+Jane asks - Do you have a 8
+Joe says - Im so sorry ): go fish (: 
+
+Joe asks - Do you have a J
+Jane says - GO FISH CHUMP
+
+Jane asks - Do you have a 9
+Joe says - Yes I have a 9
+Jane books the 9s
+Jane asks - Do you have a 8
+Joe says - Im so sorry ): go fish (: 
+
+Joe asks - Do you have a 6
+Jane says - Yes I have a 6
+Joe books the 6s 
+Winner WINNER Winner chicken breakfast is Joe

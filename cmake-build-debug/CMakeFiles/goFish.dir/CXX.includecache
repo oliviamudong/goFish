@@ -25,6 +25,8 @@ iostream
 -
 cstdlib
 -
+fstream
+-
 player.h
 /Users/oliviamudong/Desktop/312/goFish/player.h
 deck.h
