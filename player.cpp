@@ -73,9 +73,13 @@ Card Player::chooseCardFromHand() const{
     for(vector<Card>::const_iterator it = myHand.begin() ; it != myHand.end(); ++it){
         numCards++;
     }
+    if(numCards > 1){
+        rando = rand() % numCards;
+        c = this->myHand[rando];
+        return c;
+    }
 
-    rando = rand() % numCards;
-    c = myHand[rando];
+    c = this->myHand[0];
     return c;
 
 

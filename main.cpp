@@ -67,34 +67,46 @@ int main( )
         }
 
         while(pTurn == 1){
+
             if(p1.getHandSize()==0){
-                p1.addCard(d.dealCard());
+                if(d.size() != 0){
+                    p1.addCard(d.dealCard());
+                }
+            }
+            if(p1.getBookSize() == 10)
+            {
+                cout<<"Winner WINNER Winner chicken breakfast is " << p1.getName() << endl;
+                flag = 1;
+                break;
+
             }
             c = p1.chooseCardFromHand();
             cout <<p1.getName() << " asks - Do you have a "<< c.getRanker()<< endl;
 
             if(p2.rankInHand(c)){
-                cout<< p2.getName() <<" says - Yes I have a" << c.getRanker()<< endl;
+                cout<< p2.getName() <<" says - Yes I have a " << c.getRanker()<< endl;
                 c2 = p2.removeCardFromHand(c);
                 p1.addCard(c2);
+                cout << p1.getName() <<" books the " << c.getRanker() <<"s "<< endl;
                 p1.bookCards(c, c2);
                 p1Score++;
                 p1.removeCardFromHand(c);
                 p1.removeCardFromHand(c2);
 
+                /*cout << p1.getName() << p1.showHand() << p1.showBooks();
+                cout << p2.getName() << p2.showHand() << p2.showBooks();*/
 
-                if(p1Score > 4)
-                {
-                    cout<<"Winner WINNER Winner chicken breakfast is " << p1.getName() << endl;
-                    flag = 1;
-                    break;
 
-                }
+
             }
             else {
 
-                cout << p2.getName() << " says - GO FISH CHUMP" << endl;
-                p2.addCard(d.dealCard());
+                cout << p2.getName() << " says - GO FISH CHUMP" << endl<< endl;
+                if(d.size() != 0 ){
+                    p1.addCard(d.dealCard());
+                }
+
+
                 if(p1.checkHandForPair(c, c2))
                 {
                     p1.bookCards(c, c2);
@@ -104,15 +116,23 @@ int main( )
                 pTurn = 2;
             }
 
-
-
-
         }
 
         while(pTurn == 2)
         {
             if(p2.getHandSize()==0){
-                p2.addCard(d.dealCard());
+                if(d.size() != 0 ){
+                    p2.addCard(d.dealCard());
+                }
+
+            }
+
+            if(p2.getBookSize() == 10)
+            {
+                cout<<"Winner WINNER Winner chicken breakfast is " << p2.getName() << endl;
+                flag = 1;
+                break;
+
             }
             c = p2.chooseCardFromHand();
             cout <<p2.getName() << " asks - Do you have a "<< c.getRanker()<< endl;
@@ -123,26 +143,24 @@ int main( )
                 cout << p1.getName() << " says - Yes I have a " << c.getRanker() << endl;
                 c2 = p1.removeCardFromHand(c);
                 p2.addCard(c2);
+                cout << p2.getName() <<" books the " << c.getRanker()<< "s"<< endl;
                 p2.bookCards(c, c2);
                 p2Score++;
                 p2.removeCardFromHand(c);
                 p2.removeCardFromHand(c2);
 
-                if(p2Score > 4)
-                {
-                    cout<<"Winner WINNER Winner chicken breakfast is " << p2.getName() << endl;
-                    flag = 1;
-                    break;
 
-                }
 
             }
 
             else
                 {
                 pTurn = 1;
-                cout << p1.getName() << " says - Im so sorry ): go fish (: " << endl;
-                p1.addCard(d.dealCard());
+                cout << p1.getName() << " says - Im so sorry ): go fish (: " << endl<<endl;
+                if(d.size() != 0){
+                    p2.addCard(d.dealCard());
+                }
+
                 if(p2.checkHandForPair(c, c2))
                 {
                     p2.bookCards(c, c2);
