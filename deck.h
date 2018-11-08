@@ -32,6 +32,7 @@ public:
     Card dealCard();   // get a card, after 52 are dealt, fail
 
     int  size() const; // # cards left in the deck
+    void cardSwapper(int c1, int c2);
 
 private:
 

@@ -19,7 +19,31 @@ Card::Card(int rank, Suit s) {
 string Card::toString()const{
 
     string ranker;
-    ranker = to_string(myRank);
+    if(myRank == 11)
+    {
+        ranker = "J";
+    }
+    if(myRank== 12)
+    {
+        ranker = "Q";
+
+    }
+    if(myRank == 13)
+    {
+        ranker = "K";
+
+    }
+    if(myRank == 1)
+    {
+        ranker = "A";
+    }
+
+    if(myRank > 1 && myRank < 11)
+    {
+        ranker = to_string(myRank);
+    }
+
+    //ranker = to_string(myRank);
     string suiter;
     suiter = suitString(mySuit);
     string totalCarder;
@@ -41,6 +65,33 @@ bool Card::sameSuitAs(const Card& c)const {                              //bool 
 int  Card::getRank()const{
     return myRank;
 }
+string  Card::getRanker()const{
+    string ranker;
+    if(myRank == 11)
+    {
+        ranker = "J";
+        return ranker;
+    }
+    if(myRank== 12)
+    {
+        ranker = "Q";
+        return ranker;
+    }
+    if(myRank == 13)
+    {
+        ranker = "K";
+        return ranker;
+    }
+    if(myRank == 1)
+    {
+        ranker = "A";
+        return ranker;
+    }
+
+    ranker =  to_string(myRank);
+    return ranker;
+}
+
 
 
 string Card::suitString(Suit s)const{

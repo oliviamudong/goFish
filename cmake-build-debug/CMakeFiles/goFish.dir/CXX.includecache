@@ -16,13 +16,21 @@ string
 string
 -
 
-/Users/oliviamudong/Desktop/312/goFish/player.cpp
+/Users/oliviamudong/Desktop/312/goFish/deck.h
+card.h
+/Users/oliviamudong/Desktop/312/goFish/card.h
+
+/Users/oliviamudong/Desktop/312/goFish/main.cpp
 iostream
+-
+cstdlib
 -
 player.h
 /Users/oliviamudong/Desktop/312/goFish/player.h
-iterator
--
+deck.h
+/Users/oliviamudong/Desktop/312/goFish/deck.h
+card.h
+/Users/oliviamudong/Desktop/312/goFish/card.h
 
 /Users/oliviamudong/Desktop/312/goFish/player.h
 iostream
